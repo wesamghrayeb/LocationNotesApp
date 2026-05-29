@@ -13,12 +13,12 @@ React Native CLI app for creating notes with GPS location.
 
 ## Tech Stack
 
-* React Native CLI + TypeScript
-* Redux Toolkit for auth and notes state
-* Redux Persist + AsyncStorage for local persistence
-* React Navigation for auth flow, tabs, and note details
-* react-native-geolocation-service + react-native-permissions for GPS
-* react-native-webview + Leaflet + OpenStreetMap for maps without a Google Maps API key
+- **React Native CLI + TypeScript** — used because the assignment required React Native CLI, and TypeScript helps keep the code safer and easier to maintain.
+- **Redux Toolkit** — used to manage global auth and notes state in a clean and predictable way.
+- **Redux Persist + AsyncStorage** — used to keep users, session, and notes saved between app launches.
+- **React Navigation** — used for the auth flow, bottom tabs, and note details navigation.
+- **react-native-geolocation-service + react-native-permissions** — used to request location permission and get the current GPS coordinates when creating a note.
+- **react-native-webview + Leaflet + OpenStreetMap** — used to show interactive maps without requiring a Google Maps API key or billing setup.
 
 ## Setup
 
